@@ -1,0 +1,39 @@
+
+
+.front{
+height: 200px;
+width:300px ;
+border:2px ;
+background-color: lightblue;
+text-align: center;
+animation-name: mymove;
+animation-duration: 4s;
+padding-top: 100px;
+}
+
+    
+   @keyframes mymove {
+    0%   {font-size: 25px;}
+    25%  {font-size: 50px;}
+    50%  {font-size: 100px;}
+    75%  {font-size: 150px;}
+    100% {font-size: 25px;}
+}
+
+h1{
+color: white;
+
+
+}
+.back{
+    height: 200px;
+    width:300px ;
+    border:2px ;
+    background-color: lightblue;
+  
+    
+    padding-top: 100px;
+    color: white;
+}
+
+
